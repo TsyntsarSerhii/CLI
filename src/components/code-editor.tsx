@@ -24,6 +24,7 @@ const CodeEditor: FC<CodeEditorProp> = ({ onChange, initialValue }) => {
 
     monacoEditor.getModel()?.updateOptions({ tabSize: 2 });
 
+    // need for color code styling
     //   const highlighter = new Highlighter(
     //     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     //     // @ts-ignore
