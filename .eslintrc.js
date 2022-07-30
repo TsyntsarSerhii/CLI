@@ -31,6 +31,7 @@ module.exports = {
     'no-debugger': 1,
     'dot-notation': 0,
     'no-loop-func': 0,
+    "default-param-last": 0,
     'no-restricted-syntax': 0,
     'spaced-comment': 0,
     'jsx-a11y/anchor-is-valid': 'off',
