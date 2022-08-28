@@ -1,5 +1,5 @@
 {
-  "name": "jbook",
+  "name": "local-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,7 +40,8 @@
   "scripts": {
     "start": "react-scripts start",
     "lint": "eslint \"src/**/*.+(js|ts|jsx|tsx)\"",
-    "format": "eslint \"src/**/*.+(js|ts|jsx|tsx)\" --fix"
+    "format": "eslint \"src/**/*.+(js|ts|jsx|tsx)\" --fix",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
